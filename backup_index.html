@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luvable1196 - Backend Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <script defer src="js/main.js"></script>
+  <script defer src="js/animations.js"></script>
+  <script defer src="js/particles.js"></script>
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div id="loading-screen">
+    <div class="loading-container">
+      <div class="loading-logo">
+        <span class="gradient-text">Luvable</span>
+      </div>
+      <div class="loading-text">Loading portfolio...</div>
+      <div class="loading-bar">
+        <div class="loading-progress"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Navigation -->
+  <nav class="floating-nav">
+    <div class="nav-container">
+      <div class="logo-text gradient-text">Luvable1196</div>
+      <ul class="nav-menu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="mobile-menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-section">
+    <div class="hero-content container">
+      <div class="hero-text">
+        <span class="hero-badge">Backend Developer</span>
+        <h1 class="hero-title">
+          Hey, I'm <span class="gradient-text">Vamshi</span>
+        </h1>
+        <p class="hero-subtitle">
+          Building scalable web applications with modern tech stack. 
+          Passionate about distributed systems and clean architecture.
+        </p>
+        <div class="hero-actions">
+          <a href="assets/KrishnaVamshiR.pdf" class="btn btn-primary" download>
+            <span>Download Resume</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+              <polyline points="7,10 12,15 17,10"/>
+              <line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+          </a>
+          <a href="#projects" class="btn btn-secondary">
+            <span>See Projects</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M7 17L17 7"/>
+              <path d="M7 7h10v10"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="profile-container">
+          <img src="images/profile.jpg" alt="Vamshi Krishna - Backend Engineer" class="profile-img">
+          <div class="profile-ring"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>I'm a backend-focused full stack developer with a passion for distributed systems and clean UI. With 2+ years of experience, I specialize in building scalable web applications using modern technologies.</p>
+          <p>My expertise spans across Python ecosystem, cloud infrastructure, and DevOps practices. I love solving complex problems and creating efficient solutions that make a difference.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-item">
+            <h3>2+</h3>
+            <p>Years Experience</p>
+          </div>
+          <div class="stat-item">
+            <h3>50+</h3>
+            <p>Projects Completed</p>
+          </div>
+          <div class="stat-item">
+            <h3>10+</h3>
+            <p>Technologies</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech Stack Section -->
+  <section class="tech-stack-section">
+    <div class="container">
+      <h2 class="section-title">Tech Stack</h2>
+      <div class="tech-stack-logos">
+        <div class="tech-item">
+          <img src="images/logos/python.svg" alt="Python" title="Python">
+          <span>Python</span>
+        </div>
+        <div class="tech-item">
+          <img src="images/logos/django.svg" alt="Django" title="Django">
+          <span>Django</span>
+        </div>
+        <div class="tech-item">
+          <img src="images/logos/fastapi.svg" alt="FastAPI" title="FastAPI">
+          <span>FastAPI</span>
+        </div>
+        <div class="tech-item">
+          <img src="images/logos/flask.svg" alt="Flask" title="Flask">
+          <span>Flask</span>
+        </div>
+        <div class="tech-item">
+          <img src="images/logos/kafka.svg" alt="Kafka" title="Kafka">
+          <span>Kafka</span>
+        </div>
+        <div class="tech-item">
+          <img src="images/logos/rabbitmq.svg" alt="RabbitMQ" title="RabbitMQ">
+          <span>RabbitMQ</span>
+        </div>
+        <div class="tech-item">
+          <img src="images/logos/celery.svg" alt="Celery" title="Celery">
+          <span>Celery</span>
+        </div>
+        <div class="tech-item">
+          <img src="images/logos/docker.svg" alt="Docker" title="Docker">
+          <span>Docker</span>
+        </div>
+        <div class="tech-item">
+          <img src="images/logos/kubernetes.svg" alt="Kubernetes" title="Kubernetes">
+          <span>Kubernetes</span>
+        </div>
+        <div class="tech-item">
+          <img src="images/logos/postgresql.svg" alt="PostgreSQL" title="PostgreSQL">
+          <span>PostgreSQL</span>
+        </div>
+        <div class="tech-item">
+          <img src="images/logos/mongodb.svg" alt="MongoDB" title="MongoDB">
+          <span>MongoDB</span>
+        </div>
+        <div class="tech-item">
+          <img src="images/logos/redis.svg" alt="Redis" title="Redis">
+          <span>Redis</span>
+        </div>
+        <div class="tech-item">
+          <img src="images/logos/aws.svg" alt="AWS" title="AWS">
+          <span>AWS</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="experience-content">
+        <div class="experience-item">
+          <div class="experience-header">
+            <h3>Backend Engineer</h3>
+            <span class="experience-duration">2022 - Present</span>
+          </div>
+          <p class="experience-company">Freelance & Personal Projects</p>
+          <ul class="experience-details">
+            <li>Developed scalable REST APIs using Django and FastAPI</li>
+            <li>Implemented microservices architecture with Docker and Kubernetes</li>
+            <li>Built real-time applications using WebSockets and message queues</li>
+            <li>Optimized database queries and improved application performance</li>
+            <li>Deployed applications on AWS with CI/CD pipelines</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/projects/chat-app.png" alt="Real-time Chat Application" />
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                    <polyline points="15,3 21,3 21,9"/>
+                    <line x1="10" y1="14" x2="21" y2="3"/>
+                  </svg>
+                </a>
+                <a href="#" class="project-link">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Real-time Chat App</h3>
+            <p>A scalable chat application built with Django Channels, WebSockets, and Redis. Features real-time messaging, user authentication, and message history.</p>
+            <div class="project-tech">
+              <span>Django</span>
+              <span>WebSockets</span>
+              <span>Redis</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/projects/leetcode-finder.png" alt="LeetCode Problem Finder" />
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                    <polyline points="15,3 21,3 21,9"/>
+                    <line x1="10" y1="14" x2="21" y2="3"/>
+                  </svg>
+                </a>
+                <a href="#" class="project-link">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>LeetCode Problem Finder</h3>
+            <p>A web application to help developers find and filter LeetCode problems based on difficulty, topics, and companies. Built with FastAPI and React.</p>
+            <div class="project-tech">
+              <span>FastAPI</span>
+              <span>React</span>
+              <span>PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/projects/visitor-management.png" alt="Visitor Management System" />
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                    <polyline points="15,3 21,3 21,9"/>
+                    <line x1="10" y1="14" x2="21" y2="3"/>
+                  </svg>
+                </a>
+                <a href="#" class="project-link">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Visitor Management System</h3>
+            <p>A comprehensive visitor management system for organizations with check-in/check-out functionality, visitor tracking, and notification system.</p>
+            <div class="project-tech">
+              <span>Django</span>
+              <span>Celery</span>
+              <span>MongoDB</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Let's Connect</h2>
+      <div class="contact-content">
+        <div class="contact-text">
+          <p>I'm always open to discussing new opportunities and interesting projects. Feel free to reach out!</p>
+          <div class="contact-info">
+            <a href="mailto:vamshi@example.com" class="contact-item">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+              <span>vamshi@example.com</span>
+            </a>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="https://github.com/luvable1196" class="social-link" target="_blank" rel="noopener noreferrer">
+            <img src="assets/icons/github.svg" alt="GitHub">
+            <span>GitHub</span>
+          </a>
+          <a href="https://linkedin.com/in/luvable1196" class="social-link" target="_blank" rel="noopener noreferrer">
+            <img src="assets/icons/linkedin.svg" alt="LinkedIn">
+            <span>LinkedIn</span>
+          </a>
+          <a href="mailto:vamshi@example.com" class="social-link">
+            <img src="assets/icons/email.svg" alt="Email">
+            <span>Email</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-text">
+          <p>&copy; 2025 Luvable1196. Built with passion and modern web technologies.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button id="scroll-top" class="scroll-top" aria-label="Scroll to top">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <polyline points="18,15 12,9 6,15"/>
+    </svg>
+  </button>
+</body>
+</html>
